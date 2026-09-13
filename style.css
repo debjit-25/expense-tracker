@@ -1,0 +1,41 @@
+#header {
+    background-color: #0081a7;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    
+}
+body {
+    margin: 0;
+    background-color: #e0e1dd;
+}
+#Summary {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 15px 20px;
+}
+#expense-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#exp-form{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+
+    
+    width: 300px;
+}
+#upper-half{
+    display: flex;
+    justify-content: space-evenly;
+}
+#transaction-history{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

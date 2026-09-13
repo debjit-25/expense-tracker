@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Expense Tracker</title>
+</head>
+<body>
+    <div id="header">
+        <header><h1>Expense Tracker</h1></header>
+    </div>
+<div id="upper-half">
+    <div id="Summary">
+        <h2>Summary</h2>
+        <p id="total-spent">Total Spent: $0.00</p>
+        <p id="num-exp">Number of Expenses: 0</p>
+
+    </div>
+    <div id="expense-form">
+        <h2>Add Expense</h2>
+        <form id="exp-form" action="">
+            <label for="expense-name">Expense Name:</label>
+            <input type="text" id="expense-name" name="expense-name" required><br>
+
+            <label for="expense-amount">Amount:</label>
+            <input type="text" id="expense-amount" name="expense-amount" required><br>
+
+            <label for="category">Category:</label>
+            <select name="category" id="category">
+                <option value="food">Food</option>
+                <option value="transportation">Transportation</option>
+                <option value="entertainment">Entertainment</option>
+                <option value="utilities">Utilities</option>
+                <option value="other">Other</option>
+            </select><br>
+
+            <button type="submit">Add Expense</button>
+
+        </form>
+    </div>
+    </div>
+
+    <div id="transaction-history">
+        <h2>Transaction History</h2>
+        <ul id="transaction-list">
+            <!-- Transactions will be added here dynamically -->
+        </ul>
+
+</body>
+<script src="script.js"></script>
+</html>
