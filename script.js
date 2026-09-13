@@ -59,7 +59,7 @@ transactions()
 // Delete options for specific transactions
 let btns =document.getElementsByClassName("delete")
 for (let i = 0; i < btns.length; i++) {
-    btns[i].addEventListener("dblclick", function() {
+    btns[i].addEventListener("click", function() {
         const index = this.dataset.index;
         // console.log(index);
         expenseData.splice(index, 1);
